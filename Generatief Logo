@@ -1,0 +1,103 @@
+import java.util.*;
+
+void setup() {
+  size(850, 700);
+  background(255);
+  noStroke();
+  //noLoop();
+  colorMode(HSB, 360, 100, 100);
+  frameRate(1);
+  smooth();
+}
+
+void draw() {
+  color[] myColor = { color(199, 41, 76), color(12, 46, 100), color(199, 10, 90) };
+  
+  for (int i=0; i <3; i++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(100+i*100, 500, 80, 80);
+  }
+
+  
+  for (int a =0; a <3; a++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(150+a*100, 600, 80, 80);
+  }
+
+
+  
+  for (int b =0; b <3; b++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(550+b*100, 500, 80, 80);
+  }
+  
+  for (int c =0; c <3; c++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(500+c*100, 600, 80, 80);
+  }
+
+  // midsectie
+
+ 
+ 
+  for (int d=0; d <3; d++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(100+d*100, 300, 80, 80);
+  }
+
+  
+  for (int e =0; e <3; e++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(150+e*100, 400, 80, 80);
+  }
+
+
+  
+  for (int f =0; f <3; f++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(550+f*100, 300, 80, 80);
+  }
+  
+  for (int g =0; g <3; g++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(500+g*100, 400, 80, 80);
+  }
+
+  // topsectie
+
+  
+  for (int h=0; h <3; h++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(100+h*100, 100, 80, 80);
+  }
+
+ 
+  for (int i =0; i <3; i++) {
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(150+i*100, 200, 80, 80);
+  }
+
+
+  
+  for (int j =0; j <3; j++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(550+j*100, 100, 80, 80);
+  }
+  
+  for (int k =0; k <3; k++) { 
+    color myColors = myColor[(int) random(myColor.length)];
+    fill(myColors);
+    ellipse(500+k*100, 200, 80, 80);
+  }
+}
